@@ -5,9 +5,29 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\go_download_gms</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\GUIDE_READ_ME.gml</script>
+    <script>scripts\WRITE_CODE_HERE.gml</script>
+    <scripts name="hidden">
+      <script>scripts\fromArrayToString.gml</script>
+      <script>scripts\getEmail.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_carrier</object>
+    <object>objects\password_string</object>
+    <object>objects\password_numbers</object>
+    <object>objects\email</object>
+    <object>objects\obj_download</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room0</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
